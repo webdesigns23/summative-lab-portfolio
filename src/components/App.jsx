@@ -8,10 +8,6 @@ import Projects from "./Projects";
 import user from "../data/user";
 console.log(user);
 
-//project data to add in project info
-import projects from "../data/projects";
-console.log(projects);
-
 //need to add name,city,color to home component to be able to pass args(props)
 function App() {
   return (

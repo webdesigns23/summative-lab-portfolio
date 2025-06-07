@@ -6,7 +6,7 @@ function About({bio, image, name}) {
 	return(
 		<div id="about">
 			<h2>About Me</h2>
-			<img src={image} style={{width: '60%'}} alt={name} />
+			<img src={image} style={{width: '50%'}} alt={name} />
 			<p>{bio}</p>
 		</div>
 	);
