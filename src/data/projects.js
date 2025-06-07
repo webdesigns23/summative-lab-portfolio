@@ -1,4 +1,4 @@
-const projects = [
+const projectData = [
 	{
 		id: 1,
 		name: "Dictionary API",
@@ -22,4 +22,4 @@ const projects = [
 	}
 ]
 
-export default projects;
+export default projectData;

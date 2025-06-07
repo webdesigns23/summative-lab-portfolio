@@ -4,11 +4,10 @@ import React from "react";
 function Home({color, name, city}) { //funtion args added as user props in ()
 	return(
 		<div id= "home">
-			<h1 style = {
-				{color: color}
-			}>
-				{name} is a Web Developer from {city}
+			<h1>
+				Project Portfolio
 			</h1>
+			<h2>{name} is a Web Developer from {city}</h2>
 		</div>
 	);
 }

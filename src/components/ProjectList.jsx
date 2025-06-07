@@ -20,6 +20,8 @@ export default function ProjectList({projects}) {
         setFilteredProjects(filtered);
     };
 
+	//add project
+
 	return(
 		<div>
 			<label>Search Projects:</label>

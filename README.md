@@ -1,12 +1,36 @@
-# React + Vite
+## Project Portfolio Template
+Single Page Application portfolio template to showcase and manage your projects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+- Navigation Bar: Includes Home, About, and Projects to jump to desired page contents
+- Home: Project Portfolio Title and dynamically displays users name and location.
+- About: Dynamically displays useres image and bio. 
+- Projects: Dynamically displays a list of Projects
+		* Includes a search bar to find projects quickly
+		* Includes a form to add new projects
 
-Currently, two official plugins are available:
+# Tools
+- GitHub
+- IDE, VS Code preferred
+- Vite
+- React
+- Node.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Template Setup
+1. In GitHub, fork and clone the repository to your local device
+2. Open project in IDE, ensure all necessary dependencies are installed
+	- npm install 
+3. Navigate to the user.js file to input your own data for:
+	- Name
+	- City
+	- Bio
+	- Image
+4. Navigate to the projects.js file to input your project data for:
+	- Id
+	- Name
+	- Description
+	- Language
+	- Link
+	* Note you can also use the add project form on page to add projects!
+5. Open project in browser using the following command:
+	- npm run dev

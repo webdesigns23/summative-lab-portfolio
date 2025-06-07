@@ -1,15 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import ProjectForm from "./ProjectForm";
 import ProjectList from "./ProjectList";
 
 //project data to add in project info
-import projects from "../data/projects";
-console.log(projects);
+import projectData from "../data/projects";
+console.log(projectData);
 
 export default function Projects() {
+	const [projects, setProjects] = useState(projectData);
+
 	return(
 		<div id="projects">
-			<ProjectForm />
+			<h1>Projects</h1>
+			<ProjectForm projects={projects} setProjects={setProjects}/>
 			<ProjectList projects={projects}/>
 		</div>
 	)
