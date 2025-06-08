@@ -28,15 +28,15 @@ export default function ProjectForm({projects, setProjects}) {
 	return(
 		<div>
 			<h2>Add Project</h2>
-			<form className="NewProject" onSubmit={handleSubmit}>
+			<form className="NewProject" onSubmit={handleSubmit} required>
 				<input className={styles.input} type="text" name="projectName" placeholder="Project Name..." 
-					onChange = {(e)=>setProjectName(e.target.value)}/>
+					onChange = {(e)=>setProjectName(e.target.value)} required/>
 				<input className={styles.input} type="text" name="description" placeholder="Description..." 
-					onChange = {(e)=>setDescription(e.target.value)}/>
+					onChange = {(e)=>setDescription(e.target.value)} required/>
 				<input className={styles.input} type="text" name="language" placeholder="Languages Used..."
-					onChange = {(e)=>setLanguage(e.target.value)}/>
+					onChange = {(e)=>setLanguage(e.target.value)} required/>
 				<input className={styles.input} type="text" name="link" placeholder="Link..."
-					onChange = {(e)=>setLink(e.target.value)}/>
+					onChange = {(e)=>setLink(e.target.value)} required/>
 				<button className={styles.button} type="submit">Add</button>
 			</form>
 		</div>
