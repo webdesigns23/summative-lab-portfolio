@@ -1,0 +1,22 @@
+.input {
+  border-radius: 5px;
+  padding: 3px;
+  display: block;
+  margin: 10px;  
+  width: 1000px;
+  height: 40px;
+}
+
+.button {
+  color: rgb(224, 222, 222);
+  background: rgb(44, 42, 42);
+  width: 50%;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.button:hover {
+  background-color:rgb(139, 140, 148);
+  color: rgb(22, 21, 21);
+}
+

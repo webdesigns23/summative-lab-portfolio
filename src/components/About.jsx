@@ -5,8 +5,8 @@ import React from "react";
 function About({bio, image, name}) {
 	return(
 		<div id="about">
-			<h2>About Me</h2>
-			<img src={image} style={{width: '50%'}} alt={name} />
+			<h1>About Me</h1>
+			<img src={image} alt={name} />
 			<p>{bio}</p>
 		</div>
 	);

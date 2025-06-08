@@ -1,22 +1,22 @@
-## Project Portfolio Template
+# Project Portfolio Template
 Single Page Application portfolio template to showcase and manage your projects.
 
-# Features
+## Features
 - Navigation Bar: Includes Home, About, and Projects to jump to desired page contents
 - Home: Project Portfolio Title and dynamically displays users name and location.
 - About: Dynamically displays useres image and bio. 
 - Projects: Dynamically displays a list of Projects
-		* Includes a search bar to find projects quickly
-		* Includes a form to add new projects
+- Projects:Includes a search bar to find projects quickly
+- Projects: Includes a form to add new projects
 
-# Tools
+## Tools
 - GitHub
 - IDE, VS Code preferred
 - Vite
 - React
 - Node.js
 
-# Template Setup
+## Template Setup
 1. In GitHub, fork and clone the repository to your local device
 2. Open project in IDE, ensure all necessary dependencies are installed
 	- npm install 
